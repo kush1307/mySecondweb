@@ -1,0 +1,61 @@
+.testimonials {
+    padding: 100px 0 100px;
+}
+
+.owl-carousel .owl-item img {
+    width: auto;
+    margin-top: 8%;
+    position: absolute;
+    margin-left: 20px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.test-card {
+    /* width: 360px; */
+    margin: 0 0 100px;
+    /* max-width: 100%; */
+    padding-bottom: 10px;  
+}
+
+.star-tag {
+    display: inline;
+}
+
+.sub-divider {
+    background: #9B69A8;
+    max-width: 13%;
+}
+
+.sub-head {
+    font-weight: 700;
+    font-size: 18px;
+    color: #20122C;
+}
+
+@media (max-width: 991.98px) {
+    .owl-carousel .owl-item img {
+        width: auto;
+        margin-top: 9%;
+        position: absolute;
+        margin-left: 20px;
+    }
+
+    .text-star {
+        width: 360px;
+    }
+
+    .sub-head {
+        font-weight: 700;
+        font-size: 15px;
+        color: #20122C;
+    }
+
+    .section-head {
+        font-weight: 700;
+        font-size: 24px;
+        color: #20122C;
+    }
+}
